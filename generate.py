@@ -1,11 +1,11 @@
 import cohere
-
+import streamlit as st
 # get api key from .env
 from dotenv import load_dotenv
 import os
 load_dotenv()
 # get api key from .env
-cohere_api_key = os.getenv(COHERE_API_KEY)
+cohere_api_key = st.secrets["COHERE_API_KEY"]
 
 
 co= cohere.ClientV2(cohere_api_key)
