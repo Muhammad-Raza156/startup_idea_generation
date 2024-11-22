@@ -1,0 +1,4 @@
+# environment vriables to be ignored
+.env
+
+__pycache__
