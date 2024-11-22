@@ -1,1 +1,2 @@
 cohere==5.11.4
+python-dotenv==1.0.1
